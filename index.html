@@ -4,112 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Writer Antoine Choley</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#About_me">About me</a></li>
-                <li><a href="#Books">Books</a></li>
-                <li><a href="#Blog">Blog</a></li>
-                <li><a href="#Press">Press</a></li>
-                <li><a href="#Contacts">Contacts</a></li>
-            </ul>
-        </nav>
-
-        <a href="https://www.youtube.com/">YouTube</a>
-        <a href="https://www.instagram.com/">Instagram</a>
-        <a href="https://www.facebook.com">Facebook</a>
+    <header id="header" class="header">
+        <nav id="navigation" class="navigation">
+            <div class="container">
+                    <ul class="nav">
+                        <li><a href="#About_me">About me</a></li>
+                        <li><a href="#Books">Books</a></li>
+                        <li><a href="#Blog">Blog</a></li>
+                        <li><a href="#Press">Press</a></li>
+                        <li><a href="#Contacts">Contacts</a></li>
+                    </ul>
+                
+                <div id="links" class="links">
+                    <a href="https://www.youtube.com/"><img class="icon" src="img/youtube-icon.png" alt="YouTube icon"></a>
+                    <a href="https://www.instagram.com/"><img class="icon" src="img/instagram-icon.png" alt="Instagram icon"></a>
+                    <a href="https://www.facebook.com"><img class="icon" src="img/facebook-icon.png" alt="Facebook icon"></a>
+                </div>
+            </div>           
+        </nav>  
     </header>
 
     <main>
-        <div id="Hello">
-            <p>Hello, i'm</p>
-            <h1>Antoine Choley</h1>
-            <p>Welcome to my website. Here you'll find information about all my books and links to all my social media.</p>
-            <a href="#About_me">About me</a>
-            <a href="#Events">Buy Books</a>
+        <div id="hello">
+            <div class="hello__text">
+                <h2 class="text__hello">Hello, i'm</h2>
+                <h1>Antoine Choley</h1>
+                <p class="text__text">Welcome to my website. Here you'll find information about all my books and links to all my social media.</p>
+                <a class="button" href="#About_me">About me</a>
+                <a class="button" href="#Events">Buy Books</a> 
+            </div>
+            <img class="hello__antoine" src="img/antoine-choley.jpg" alt="Antoine Choley">
         </div>
         
-        <div id="About_me">
-            <h2>About me</h2>
-            <p><b>I'm a Marketer, Motivator, and Media Maker.</b></p>
-            <p><strong>I've been working as a marketing consultant for the past 20 years and have consulted more than 300 companies.</strong></p>
-            <p>I accumulate the experience and knowledge acquired during my career to write books on personal and business branding.</p>
-            <p>I believe that sharing knowledge can help both individuals and the marketing industry. Check out my latest book "Walk Proud".</p>
-            <img src="https://res2.weblium.site/res/61697807abd5f000239ea56f/616d2ff650982c0023a1d52b_optimized_1110?nowebp" alt="Me" width="500">
+        <div id="about_me">
+            <img class="about_me__photo" src="https://res2.weblium.site/res/61697807abd5f000239ea56f/616d2ff650982c0023a1d52b_optimized_1110?nowebp" alt="Me">
+            <div class="about_me">
+                <h2 class="text__hello">About me</h2>
+                <p class="about_me__header"><b>I'm a Marketer, Motivator, and Media Maker.</b></p>
+                <p class="about_me__subheader"><strong>I've been working as a marketing consultant for the past 20 years and have consulted more than 300 companies.</strong></p>
+                <p>I accumulate the experience and knowledge acquired during my career to write books on personal and business branding.</p>
+                <p>I believe that sharing knowledge can help both individuals and the marketing industry. Check out my latest book "Walk Proud".</p>
+            </div>
         </div>
-        <div id="Books">
-            <h2>Books</h2>
-            <p><b>Meet All My Books</b></p>
-            <p><strong>I write about marketing, branding, and personal experience in internet marketing and communications.</strong></p>
-            <p>You can find my books in the most popular bookstores in the USA, both offline and online. For example, you can buy them on Amazon, in Barnes & Noble, or by contacting me if you want the book to be signed.</p>
-            <p>* Get 10% discount when you buy 3 books</p>
-            <ol>
-                <li>"How to Walk Away" <br> <a href="#Hello">More Info →</a></li>
-                <li>"The World's Game" <br> <a href="#Hello">More Info →</a></li>
-                <li>"Digital Branding" <br> <a href="#Hello">More Info →</a></li>
-                <li>"Learn to be Yourself" <br> <a href="#Hello">More Info →</a></li>
+        <div id="books">            
+            <div class="books">
+                <div>
+                    <h2 class="text__hello">Books</h2>           
+                    <p class="books__header"><b>Meet All My Books</b></p>
+                    <p><strong>I write about marketing, branding, and personal experience in internet marketing and communications.</strong></p>
+                </div>     
+                <div>
+                    <p>You can find my books in the most popular bookstores in the USA, both offline and online. For example, you can buy them on Amazon, in Barnes & Noble, or by contacting me if you want the book to be signed.</p>
+                    <p class="discount">* Get 10% discount when you buy 3 books</p>
+                </div>                
+            </div>
+            
+            <ol class="books__list">
+                <li>"How to Walk Away" <br> <a class="books__more-info" href="#Hello">More Info →</a></li>
+                <li>"The World's Game" <br> <a class="books__more-info" href="#Hello">More Info →</a></li>
+                <li>"Digital Branding" <br> <a class="books__more-info" href="#Hello">More Info →</a></li>
+                <li>"Learn to be Yourself" <br> <a class="books__more-info" href="#Hello">More Info →</a></li>
             </ol>
         </div>
-        <div>
-            <h2>Testimonials</h2>
-            <p><b>What the Readers are Saying</b></p>
+        <div id="testimonials">
+            <div>
+            <h2 class="text__hello">Testimonials</h2>
+            <p class="testimonials__header"><b>What the Readers are Saying</b></p>
             <p><strong>I'm extremely grateful for the feedback I receive from my readers.</strong></p>
-            <blockquote>
-                <img src="https://res2.weblium.site/res/61697807abd5f000239ea56f/616d42b95a4e8e0023ba9839_optimized?nowebp" alt="Diana Peterson" width="100">
-                <cite>Diana Peterson</cite>
-                <p>“Being a marketing director, I believed I knew everything about branding. However, "Walk Proud" still managed to surprise me. The book is captivating and useful even to industry professionals.”</p>
-                <time datetime="2021-05-24">May 24, 2021</time>
-            </blockquote>
-            <blockquote>
-                <img src="https://res2.weblium.site/res/61697807abd5f000239ea56f/616d42b7ace1f70023083ed9_optimized_850_c850x850-0x0?nowebp" alt="Jeff Gordons" width="100">
-                <cite>Jeff Gordons</cite>
-                <p>“One of the most useful and enjoyable books on branding I've ever read! It's packed with great tips and personal stories, making the reading so exciting. It feels like I've read a fiction book, except it has practical value.”</p>
-                <time datetime="2021-09-14">September 14, 2021</time>
-            </blockquote>
+            </div>
+            
+            <div class="blockquote">
+                <blockquote class="blockquote__diana">
+                    <img class="blockquote__photo" src="https://res2.weblium.site/res/61697807abd5f000239ea56f/616d42b95a4e8e0023ba9839_optimized?nowebp" alt="Diana Peterson">
+                    <div>
+                        <cite>Diana Peterson</cite>
+                        <p>“Being a marketing director, I believed I knew everything about branding. However, "Walk Proud" still managed to surprise me. The book is captivating and useful even to industry professionals.”</p>
+                        <time class="datetime" datetime="2021-05-24">May 24, 2021</time>
+                    </div>                    
+                </blockquote>
+                <blockquote class="blockquote__jeff">
+                    <img class="blockquote__photo" src="https://res2.weblium.site/res/61697807abd5f000239ea56f/616d42b7ace1f70023083ed9_optimized_850_c850x850-0x0?nowebp" alt="Jeff Gordons">
+                    <div>
+                        <cite>Jeff Gordons</cite>
+                        <p>“One of the most useful and enjoyable books on branding I've ever read! It's packed with great tips and personal stories, making the reading so exciting. It feels like I've read a fiction book, except it has practical value.”</p>
+                        <time class="datetime" datetime="2021-09-14">September 14, 2021</time>
+                    </div>                    
+                </blockquote>
+            </div>
+            
         </div>
-        <div id="Contacts">
-            <h2>Contacts</h2>
-            <p><b>I Love to Chat With My Readers!</b></p>
-            <p>If you want share your opinion on my books or simply say hi, feel free contact me in any convenient way.</p>
-
-            <a href="https://www.youtube.com/">YouTube</a>
-            <a href="https://www.instagram.com/">Instagram</a>
-            <a href="https://www.facebook.com">Facebook</a>
+        <div id="contacts">
+            <div>
+                <h2 class="text__hello">Contacts</h2>
+                <p class="contacts__header"><b>I Love to Chat With My Readers!</b></p>
+                <p>If you want share your opinion on my books or simply say hi, feel free contact me in any convenient way.</p>
+                <div class="contacts__links">
+                    <a href="https://www.youtube.com/"><img class="icon" src="img/youtube-icon.png" alt="YouTube icon"></a>
+                    <a href="https://www.instagram.com/"><img class="icon" src="img/instagram-icon.png" alt="Instagram icon"></a>
+                    <a href="https://www.facebook.com"><img class="icon" src="img/facebook-icon.png" alt="Facebook icon"></a>
+                </div>
+            </div>            
 
             <ul>
-                <li>For Media & Press Inquiries
+                <li class="contacts__name">For Media & Press Inquiries
                     <address>
-                        <a href="mailto:a.media@email.com">a.media@email.com</a>
+                        <a class="contacts__contacts" href="mailto:a.media@email.com">a.media@email.com</a>
                         <br>
-                        <a href="tel:+1(234)5678900">+1(234)5678900</a>
+                        <a class="contacts__contacts" href="tel:+1(234)5678900">+1(234)5678900</a>
                     </address>  
                 </li>
-                <li>For Rights & Agent Requests
+                <li class="contacts__name">For Rights & Agent Requests
                     <address>
-                        <a href="mailto:request@email.com">request@email.com</a>
+                        <a class="contacts__contacts" href="mailto:request@email.com">request@email.com</a>
                         <br>
-                        <a href="tel:+1(234)5678901">+1(234)5678901</a>
+                        <a class="contacts__contacts" href="tel:+1(234)5678901">+1(234)5678901</a>
                     </address>  
                 </li>
-                <li>My Personal Contacts
+                <li class="contacts__name">My Personal Contacts
                     <address>
-                        <a href="mailto:antoine@email.com">antoine@email.com</a>
+                        <a class="contacts__contacts" href="mailto:antoine@email.com">antoine@email.com</a>
                         <br>
-                        <a href="tel:+1(234)5678902">+1(234)5678902</a>
+                        <a class="contacts__contacts" href="tel:+1(234)5678902">+1(234)5678902</a>
                     </address>  
                 </li>
             </ul>
         </div>
-        <div id="Mail_to">
+        <div id="mail_to">
             <form action="#">
                 <input type="text" placeholder="Leave me a message" required>
-                <button type="submit">Submit</button>
+                <button class="button" type="submit">Submit</button>
               </form>
               
-              <form action="#">
+              <form class="radio" action="#">
                 <label>
                     <input type="radio" name="indoor-outdoor">Male
                   </label>
@@ -120,10 +150,13 @@
         </div>
     </main>
 
-    <footer>
-        <a href="Hello">Antoine Choley</a>
-        <p>Author of best-selling marketing books.</p>
-        <ul>
+    <footer id="footer">
+        <div>
+            <a class="footer__hello" href="Hello">Antoine Choley</a>
+            <p>Author of best-selling marketing books.</p>
+        </div>
+        
+        <ul class="footer__links">
             <li><a href="#About_me">About me</a></li>
             <li><a href="#Books">Books</a></li>
             <li><a href="#Blog">Blog</a></li>

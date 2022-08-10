@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #8585853f;
+    font-family: Lato;
+}
+img {
+    display: block;
+    width: 100%;
+}
+#header {
+    margin: 40px;
+}
+.container {
+    display: flex;
+}
+.container > .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    width: 300px;
+}
+ul > li > a {
+    color: #858585;
+    text-decoration: none;
+
+}
+li {
+    list-style-type: none;
+}
+.icon {
+width: 20px;
+border: 2px solid #9cc77edd;
+margin: 15px;
+}
+
+#hello {
+    display: flex;
+    margin: 20px;
+}
+.hello__antoine {
+    width: 150px;
+    text-align: center;
+    border: 7px solid #f7f9f62e;
+}
+.hello__text {
+    margin-right: 40px;
+}
+.text__hello {
+    font-style: italic;
+    font-size: 14px;
+    color: #858585;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+.text__text {
+    margin-bottom: 30px;
+}
+
+.button {
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid #9cc77edd;
+    text-decoration: none;
+    color: #9cc77edd;
+    font-weight: 600;
+}
+
+#about_me {
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.about_me__photo {
+    width: 400px;
+    margin-right: 40px;
+}
+
+.about_me__header {
+    font-size: 50px;
+    margin: 40px 0 40px 0;
+}
+p {
+    margin: 30px 0 30px 0;
+}
+.about_me__subheader {
+    font-style: italic;
+}
+
+#books {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.books {
+    display: flex;
+    flex-direction: row;
+}
+.books__header {
+    font-size: 40px;
+}
+.discount {
+    color: #9cc77edd;
+}
+.books__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.books__more-info {
+    color: #9cc77edd;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+#testimonials {
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+}
+.testimonials__header {
+    font-size: 40px;
+}
+.blockquote__diana, .blockquote__jeff {
+    display: flex;
+    margin: 20px;
+}
+
+.blockquote__photo {
+    width: 100px;
+}
+cite {
+    font-weight: 600;
+}
+.datetime {
+    color: #9cc77edd;
+}
+
+#contacts {
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+}
+.contacts__links {
+    display: flex;
+}
+.contacts__header {
+    font-size: 40px;
+}
+#contacts > ul > li {
+    margin: 20px 10px 20px 10px;
+}
+.contacts__name {
+    font-weight: 600;
+}
+.contacts__contacts {
+    font-weight: 400;
+    color: #858585;
+}
+
+#mail_to {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: #9cc77edd;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(244, 246, 248);
+}
+.footer__links {
+    display: flex;
+    flex-direction: row;
+}
+.footer__links > li {
+    margin-right: 20px;
+}
+.footer__links > li > a {
+    color: rgb(244, 246, 248);
+}
+.footer__hello {
+    color: rgb(244, 246, 248);
+    text-decoration: none;
+    font-weight: 600;
+}
+input {
+    padding: 5px;
+}
